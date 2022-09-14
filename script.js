@@ -10,7 +10,7 @@ function generarpdf (){
    documentoPDF.setFontSize(20);
    documentoPDF.text(15, 15, 'AutoEvaluacion');
    documentoPDF.setFontSize(12);
-   documentoPDF.text(20,30, 'Fecha: ' + newDate());
+   documentoPDF.text(20,30, 'Fecha: ' + new Date());
    documentoPDF.setFontSize(10);
    documentoPDF.text(20, 40, 'Nombres: ' + nombres);
    documentoPDF.text(20, 50, 'Apellidos: ' + apellidos);
